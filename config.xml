@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.dmik3d.portfolio"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>DMIK</name>
+
+    <description>
+        My Personal Android Portfolio 
+    </description>
+
+    <author href="http://dmik3.com" email="dmik17@gmail.com">
+        Dmitry Kochnev 
+    </author>
+    <gap:plugin name="cordova-plugin-navigationbar" source="npm" />
+    <preference name="fullscreen" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="android-minSdkVersion" value="14" />
+    <icon src="img/72.png" width="72" height="72" />
+    <icon src="img/48.png" width="48" height="48" />
+    <icon src="img/36.png" width="36" height="36" />
+ 
+
+
+</widget>
